@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Text, View } from "react-native";
 import FlexDirectionBasics from "./FlexDirectionBasics";
+import FlexDirectionAdvance from "./FlexDirectionAdvance";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
       >
         <Text>Hello, world!</Text>
         <FlexDirectionBasics> </FlexDirectionBasics>
+        <FlexDirectionAdvance></FlexDirectionAdvance>
       </View>
     );
   }
